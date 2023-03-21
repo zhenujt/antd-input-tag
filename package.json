@@ -1,8 +1,8 @@
 {
-  "name": "antd-input-tag",
-  "version": "1.0.14",
+  "name": "input-with-tag",
+  "version": "0.0.1",
   "main": "dist/bundle.js",
-  "author": "cool",
+  "author": "Hong.Zhang",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.config.js",
     "build": "webpack --config webpack.prod.config.js"
