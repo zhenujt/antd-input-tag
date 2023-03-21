@@ -2,10 +2,18 @@
   "name": "input-with-tag",
   "version": "0.0.1",
   "main": "dist/bundle.js",
-  "author": "Hong.Zhang",
+  "repository": "https://github.com/matrixyf/input-with-tag",
+  "author": "zhanghong <paperflood1990@gmail.com> (https://github.com/matrixyf)",
+  "homepage": "https://github.com/matrixyf/input-with-tag#readme",
+  "bugs": {
+    "url": "https://github.com/matrixyf/input-with-tag/issues"
+  },
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.config.js",
     "build": "webpack --config webpack.prod.config.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "license": "MIT",
   "peerDependencies": {
