@@ -66,6 +66,8 @@ const Main = (props) => {
 }
 
 Main.propTypes = {
-  value: PropTypes.array.isRequired,
+  value: PropTypes.array,
   onChange: PropTypes.func,
 };
+
+export default Main;
