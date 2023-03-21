@@ -8,7 +8,7 @@ import 'antd/es/message/style';
 import 'antd/es/tag/style';
 import './index.css';
 
-const Main = (props) => {
+const InputWithTag = (props) => {
   const { value, onChange } = props;
   const [valueInput, setValueInput] = useState('')
   const inputRef = useRef(null);
@@ -65,9 +65,9 @@ const Main = (props) => {
   );
 }
 
-Main.propTypes = {
+InputWithTag.propTypes = {
   value: PropTypes.array,
   onChange: PropTypes.func,
 };
 
-export default Main;
+export default InputWithTag;

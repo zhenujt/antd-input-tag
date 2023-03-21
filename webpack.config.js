@@ -1,10 +1,10 @@
 var path = require('path');
 
 module.exports = {
-    entry: './src/main.jsx',
+    entry: './src/InputWithTag.jsx',
     output: {
         path: path.resolve('lib'),
-        filename: 'main.js',
+        filename: 'InputWithTag.js',
         libraryTarget: 'commonjs2'
     },
     module: {
